@@ -1,1 +1,349 @@
-<h1>sunil</h1>
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Sunil Shukla</title>
+		<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;700&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- Font Awesome -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+			integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- CSS Style -->
+		<link rel="stylesheet" href="css/normalize.css" />
+		<link rel="stylesheet" href="css/main.css" />
+		<script>
+			document.getElementById("hireBtn").addEventListener("click", function () {
+  window.location.href = "mailto:sunil46shukla@gmail.com?subject=Hire%20Me%20-%20Portfolio%20Inquiry";
+});
+		</script>
+	</head>
+	<body>
+		<!-- Start Preloader -->
+		<div id="preloader" class="preloader">
+			<div class="loader"></div>
+		</div>
+		<!-- End Preloader -->
+		<!-- Start Background Video -->
+		<video id="bgVideoPlayer" class="bg-video" muted autoplay loop>
+			<source
+				id="bgVideoSource"
+				src="videos/simple-strings.mp4"
+				type="video/mp4"
+			/>
+		</video>
+		<!-- Start Settings -->
+		<button class="settings-btn btn-secondary" id="settingsOpenBtn">
+			<i class="fa-solid fa-gear fa-fw icon"></i>
+		</button>
+		<div class="settings" id="settingsContainer">
+			<div class="settings__content">
+				<button class="settings__close-btn btn-unset" id="settingsCloseBtn">
+					<i class="fa-solid fa-xmark fa-fw icon"></i>
+				</button>
+				<h2 class="settings__title">Settings</h2>
+				<div class="buttons-configuration">
+					<p class="background-video-configuration">Background Video</p>
+					<div id="buttonsContainer" class="buttons-container"></div>
+				</div>
+			</div>
+		</div>
+		<!-- End Settings -->
+		<!-- End Background Video -->
+		<div class="page container">
+			<!-- Start Navbar -->
+			<nav class="navbar">
+				<ul class="navbar__list">
+					<li class="navbar__item">
+						<a href="#home" class="navbar__link active">
+							<i class="fa-solid fa-house fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#about" class="navbar__link">
+							<i class="fa-solid fa-user fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#resume" class="navbar__link">
+							<i class="fa-solid fa-briefcase fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#services" class="navbar__link">
+							<i class="fa-solid fa-bars-staggered fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#skills" class="navbar__link">
+							<i class="fa-solid fa-shapes fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#portfolio" class="navbar__link">
+							<i class="fa-solid fa-grip-vertical fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					<li class="navbar__item">
+						<a href="#testimonial" class="navbar__link">
+							<i class="fa-solid fa-comment-dots fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+					
+					<li class="navbar__item">
+						<a href="#contact" class="navbar__link">
+							<i class="fa-solid fa-envelope fa-fw icon navbar__icon"></i>
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!-- End Navbar -->
+			<!-- Start Sidebar -->
+			<aside class="sidebar">
+				<div class="profile">
+					<div class="profile__header">
+						<h1 style="font-size: 1.25rem;">Sunil Shukla</h1>
+						<p class="profile__designation">UI/UX Developer</p>
+					</div>
+					<div class="profile__content">
+						<img
+							class="profile__image"
+							src="images/sunilpp.png"
+							alt="Profile Image"
+						/>
+						<p class="profile__info">sunil46shukla@gmail.com</p>
+						<p class="profile__info">Mumbai, India</p>
+						<p class="copyright">&copy; 2025 Sunil Shukla. All rights reserved</p>
+
+						<div class="social">
+							<ul class="social__list">
+								<li class="social__item">
+									<a
+										class="social__link"
+										href="https://github.com/IssaKass"
+										target="_blank"
+									>
+										<i class="fa-brands fa-github fa-fw social__icon icon"></i>
+									</a>
+								</li>
+								<li class="social__item">
+									<a
+										class="social__link"
+										href="https://pin.it/33ixDmc"
+										target="_blank"
+									>
+										<i
+											class="fa-brands fa-pinterest fa-fw social__icon icon"
+										></i>
+									</a>
+								</li>
+								<li class="social__item">
+									<a
+										class="social__link"
+										href="https://dribbble.com/IssaKass"
+										target="_blank"
+									>
+										<i
+											class="fa-brands fa-dribbble fa-fw social__icon icon"
+										></i>
+									</a>
+								</li>
+							</ul>
+
+							<button id="hireBtn" class="btn-primary btn-block" type="button">
+    <i class="fa-regular fa-envelope fa-fw icon"></i>
+    Hire Me!
+</button>
+
+						</div>
+					</div>
+				</div>
+			</aside>
+			<!-- End Sidebar -->
+			<main class="main">
+				<!-- Start Home Section -->
+				<section class="section home" id="home">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-house fa-fw icon"></i>
+							Home
+						</p>
+						<h1 class="section__title section__title--lg">
+							Hi, I'm <span>Sunil Shukla</span> — Angular UI/UX Developer
+						</h1>
+						<p class="section__description">
+							I build scalable, high-performance, and user-centric web applications using 
+							Angular, TypeScript, RxJS, and modern UI/UX design tools. I specialize in crafting 
+							responsive, accessible, and aesthetically refined interfaces that elevate the digital 
+							experience.
+						</p>
+						<a class="goto border circle" href="#portfolio">
+							&DownArrow;
+							<img
+								class="goto__image"
+								src="images/round-text.png"
+								alt=""
+							/>
+						</a>
+						<div class="facts">
+						<div class="fact">
+							<p class="fact__number">8+ Years</p>
+							<p class="fact__description">Experience in UI Engineering & UX Design</p>
+						</div>
+						<div class="fact">
+							<p class="fact__number">50+ Apps</p>
+							<p class="fact__description">Delivered across Healthcare, Finance & Enterprise</p>
+						</div>
+					</div>
+					</div>
+				</section>
+				<!-- End Home Section -->
+				<!-- Start About Section -->
+				<section class="section about" id="about">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-user fa-fw icon"></i>
+							About
+						</p>
+						<h2 class="section__title">
+							Crafting Digital Experiences with <span>Precision & Creativity</span>
+						</h2>
+						<p class="section__description">
+							I'm an Angular UI/UX Developer with 8+ years of experience building elegant, 
+							scalable, and high-performance web and mobile applications. I blend strong visual 
+							design skills (Figma, Adobe XD) with modern engineering practices to translate 
+							complex business needs into clean, intuitive interfaces. I’m passionate about 
+							improving usability, optimizing front-end performance, and delivering products 
+							that delight users.
+						</p>
+
+					</div>
+				</section>
+				<!-- End About Section -->
+				<!-- Start Resume Section -->
+				<section class="section resume" id="resume">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-briefcase fa-fw icon"></i>
+							Resume
+						</p>
+						<h2 class="section__title">Education & <span>Experience</span></h2>
+						<div class="resume__wrapper timelines">
+							<!-- Added using JS dynamically -->
+						</div>
+					</div>
+				</section>
+				<!-- End Resume Section -->
+				<!-- Start Services Section -->
+				<section class="section services" id="services">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-bars-staggered fa-fw icon"></i>
+							Services
+						</p>
+						<h2 class="section__title">My <span>Specializations</span></h2>
+						<div class="services__wrapper">
+							<!-- Added using JS dynamically -->
+						</div>
+					</div>
+				</section>
+				<!-- End Services Section -->
+				<!-- Start Skills Section -->
+				<section class="section skills" id="skills">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-shapes fa-fw icon"></i>
+							Skills
+						</p>
+						<h2 class="section__title">My <span>Advantages</span></h2>
+						<div class="skills__wrapper">
+							<!-- Added using JS dynamically -->
+						</div>
+					</div>
+				</section>
+				<!-- End Skills Section -->
+				<!-- Start Portfolio Section -->
+				<section class="section portfolio" id="portfolio">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-grip-vertical fa-fw icon"></i>
+							Portfolio
+						</p>
+						<h2 class="section__title">Featured <span>Projects</span></h2>
+						<div class="portfolio__wrapper projects">
+							<!-- Added using JS dynamically -->
+						</div>
+					</div>
+				</section>
+				<!-- End Portfolio Section -->
+				<!-- Start Testimonial Section -->
+				<section class="section testimonial" id="testimonial">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-regular fa-comment-dots fa-fw icon"></i>
+							Testimonial
+						</p>
+						<h2 class="section__title">
+							Trusted by <span>Clients</span>
+						</h2>
+						<div class="slider" id="clientsSlider">
+							<div class="slider-wrapper">
+								<!-- Added using JS dynamically -->
+							</div>
+							<button class="slider-button-prev">
+								<i class="fa-solid fa-chevron-left fa-fw icon"></i>
+							</button>
+							<button class="slider-button-next">
+								<i class="fa-solid fa-chevron-right fa-fw icon"></i>
+							</button>
+						</div>
+						
+					</div>
+				</section>
+				<!-- End Testimonial Section -->
+				<!-- Start Pricing Section -->
+				
+				<!-- End Pricing Section -->
+				<!-- Start Contact Section -->
+				<section class="section contact" id="contact">
+					<div class="wrapper">
+						<p class="section__subtitle">
+							<i class="fa-solid fa-envelope fa-fw icon"></i>
+							Contact
+						</p>
+						<h2 class="section__title">Let's Work <span>Together!</span></h2>
+						<div class="contact__wrapper">
+							<form action="" class="form">
+								
+															<button id="hireBtn" class="btn-primary btn-block" type="button">
+    <i class="fa-regular fa-envelope fa-fw icon"></i>
+    Hire Me!
+</button>
+							</form>
+						</div>
+					</div>
+				</section>
+				<!-- End Contact Section -->
+			</main>
+		</div>
+		<!-- JS -->
+		<script src="js/main.js"></script>
+		<script src="js/resume.js"></script>
+		<script src="js/services.js"></script>
+		<script src="js/skills.js"></script>
+		<script src="js/projects.js"></script>
+		<script src="js/testimonial.js"></script>
+		<script src="js/plans.js"></script>
+	</body>
+</html>
